@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>samuel figueroa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Perfil</h1>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Soy Samuel figueroa,tengo 21 años y me apasionan los videojuegos, la informatica y la tecnologia en general,
+            suelo enfocarme bastante en avazar hacia mis objetivos y gustos por la tecnologia y la programacion, pese a eso
+            soy algo lento aprendiendo, pero doy todo de mi para seguir avanzando.</p>
+    </section>
+
+    <section>
+        <h2>Experiencias</h2>
+        <p>a nivel de experiencias relevantes he trabajado como data entry en una empresa de estados unidos por medio año, si bien
+            no estaba orientando a la programacion, al ser una empresa radicada en estados unidos pude mejorar mi fluidez y comprension
+            del ingles, asi como aprender ciertos trucos del sistema operativo que utilizabamos en el trabajo. tambien realice
+            un curso de freecodecamp que tuve que colocar en pausa por motivos de tiempo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <p>soy bachiller en ciencias graduado del liceo simon bolivar libertador, estudie un tiempo en la universidad santa maria y 
+            actualmente soy estudiante de informatica del 6to nivel en el IUTA
+        </p>
+    </section>
+
+    <img src="https://w0.peakpx.com/wallpaper/769/199/HD-wallpaper-moon-artistic-pixel-art.jpg" 
+    alt="luna pixel art">
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" id="submitBtn">Enviar</button>
+        </form>
+        <div id="confirmationMsg" style="display: none;">
+            <p>¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.</p>
+        </div>
+    </section>   
+
+    <script src="scripts.js"></script>
+</body>
+</html>
